@@ -4,6 +4,8 @@
 который реализует эти функции. Просто скопируйте этот репозиторий и Вы получите приложение с необходимым БАЗОВЫМ функционалом.
 Также в этом репозитории я реализовал функции регистрации/активации/сброса пароля/смены пароля.
 <br>
+ДОПОЛНИТЕЛЬНО: В этом проекте пользователи могут авторизоваться через имя пользователя либо через емейл пользователя.
+<br>
 В основном это будет полезно при написании проекта с самого начала.
 <br>
 
@@ -56,9 +58,12 @@ If you want to develop an application in which the user must confirm the email,
 as well as implement basic functions of the user's account, such as registration / activation of an account / reset of a password 
 and similar, you do not need to write the same code every time that implements this functions. 
 Just copy this repository and you will receive an application with the BASIC necessary functionality.
-Also in this repository I implemented registration / activation / password reset / password change functions
+Also in this repository I implemented registration / activation / password reset / password change functions.
+<br>
+ADDITIONAL: In this project, users can log in through their username or through the user's email.
 <br>
 This will mostly be helpful when writing a project from the beginning.
+
 <br>
 <br>
 <b>ATTENTION:</b>
