@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+{% block content %}
+
+{% block title %}
+    <title>Регистрация</title>
+{% endblock %}
+
+
+                <h2>Signup</h2>  
+ {% if form.errors %}
+    <div class="alert alert-danger alert-dismissible col-12 mx-1" role="alert">
+        <div id="form_errors">
+            {% for key, value in form.errors.items %}
+                <span class="fieldWrapper">
+                    {{ value }}
+                </span>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+                <form method="post">  
+                    {% csrf_token %}  
+                    {{form.as_p}}
+                    <button type="submit" class="btn btn-primary">Submit</button>  
+                </form>  
+
+{% endblock %}
