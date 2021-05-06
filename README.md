@@ -25,7 +25,7 @@ Css стили Вы должны будете настроить сами, та�
 <br>
 Для начала клонируйте этот репозиторий.
 <br>
-Потом перейдите в папку с проектом (например - "cd django_accounts_email"). Создайте виртуально окружение, например - "pip -m venv venv".
+Потом перейдите в папку с проектом (например - "cd django_accounts_email"). Создайте виртуально окружение, например - "python -m venv venv".
 <br>
 Перейдите в папку с виртуальным окружением, в моем примере это - "cd venv".
 <br>
@@ -82,7 +82,7 @@ In these files, you can customize the display of information by adding / changin
 <br>
 First, clone this repository.
 <br>
-Then go to the folder with the project (for example - "cd django_accounts_email"). Create a virtual environment, for example "pip -m venv venv".
+Then go to the folder with the project (for example - "cd django_accounts_email"). Create a virtual environment, for example "python -m venv venv".
 <br>
 Go to the folder with the virtual environment, in my example it is "cd venv".
 <br>
