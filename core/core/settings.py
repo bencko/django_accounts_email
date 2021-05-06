@@ -35,9 +35,9 @@ AUTHENTICATION_BACKENDS = ('accounts.backend.EmailBackend',)
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  
 MAILER_EMAIL_BACKEND = EMAIL_BACKEND  
-EMAIL_HOST = 'smtp.mail.ru'  
-EMAIL_HOST_PASSWORD = 'GreenDay59914'  
-EMAIL_HOST_USER = 'cpaed@mail.ru'  
+EMAIL_HOST = 'email_host_here'  
+EMAIL_HOST_PASSWORD = 'your_email_password_here'  
+EMAIL_HOST_USER = 'your_email_username_here'  
 EMAIL_PORT = 465  
 EMAIL_USE_SSL = True  
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
